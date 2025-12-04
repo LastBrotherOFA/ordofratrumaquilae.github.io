@@ -40,6 +40,9 @@ header {
 
 .symbol {
     margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .cross-symbol {
