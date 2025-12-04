@@ -46,6 +46,7 @@ header {
     width: 100px;
     height: 100px;
     opacity: 0.95;
+    object-fit: contain;
 }
 
 h1 {
