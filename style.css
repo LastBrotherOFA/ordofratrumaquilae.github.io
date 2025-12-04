@@ -1,0 +1,352 @@
+/* Ordo Fratrum Aquilae - Website Styles */
+
+/* Color Palette */
+:root {
+    --burgundy: #630436;
+    --cream: #FFF8DC;
+    --dark-burgundy: #4a0228;
+    --light-cream: #FFFEF7;
+    --gold: #C9A961;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--burgundy);
+    color: var(--cream);
+    font-family: 'Georgia', 'Garamond', serif;
+    font-size: 18px;
+    line-height: 1.8;
+    padding: 20px;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+/* Header Styles */
+header {
+    text-align: center;
+    margin-bottom: 60px;
+    padding: 40px 0;
+    border-bottom: 2px solid var(--cream);
+}
+
+.symbol {
+    margin-bottom: 30px;
+}
+
+.cross-symbol {
+    width: 100px;
+    height: 100px;
+    filter: brightness(0) invert(1);
+    opacity: 0.95;
+}
+
+h1 {
+    font-size: 2.8em;
+    font-weight: bold;
+    letter-spacing: 3px;
+    margin-bottom: 10px;
+    color: var(--cream);
+    font-family: 'Times New Roman', serif;
+}
+
+.subtitle {
+    font-size: 1.3em;
+    font-style: italic;
+    margin-bottom: 20px;
+    color: var(--light-cream);
+}
+
+.motto {
+    font-size: 1.1em;
+    font-style: italic;
+    margin: 20px 0;
+    color: var(--gold);
+    letter-spacing: 2px;
+}
+
+.established {
+    font-size: 0.9em;
+    letter-spacing: 2px;
+    color: var(--light-cream);
+    margin-top: 10px;
+}
+
+/* Typography */
+h2 {
+    font-size: 2em;
+    margin: 40px 0 20px 0;
+    color: var(--light-cream);
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 1.5em;
+    margin: 30px 0 15px 0;
+    color: var(--light-cream);
+}
+
+p {
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+.emphasis {
+    font-weight: bold;
+    font-size: 1.1em;
+    color: var(--light-cream);
+    text-align: center;
+    margin: 30px 0;
+}
+
+.quote {
+    font-style: italic;
+    color: var(--gold);
+}
+
+/* Horizontal Rules */
+hr {
+    border: none;
+    border-top: 1px solid var(--cream);
+    margin: 50px 0;
+    opacity: 0.5;
+}
+
+/* Lists */
+ul, ol {
+    margin-left: 40px;
+    margin-bottom: 20px;
+}
+
+li {
+    margin-bottom: 15px;
+}
+
+/* Callout Boxes */
+.callout {
+    background-color: var(--dark-burgundy);
+    border: 2px solid var(--cream);
+    padding: 30px;
+    margin: 30px 0;
+    border-radius: 5px;
+}
+
+.callout h3 {
+    margin-top: 0;
+    color: var(--gold);
+}
+
+/* Letter styling */
+.letter-text {
+    font-style: italic;
+}
+
+.letter-signature {
+    text-align: right;
+    font-style: normal;
+    margin-top: 20px;
+    color: var(--light-cream);
+}
+
+/* Button */
+.button {
+    display: inline-block;
+    padding: 15px 40px;
+    background-color: var(--cream);
+    color: var(--burgundy);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1em;
+    border-radius: 5px;
+    margin: 20px 0;
+    transition: all 0.3s ease;
+    border: 2px solid var(--cream);
+}
+
+.button:hover {
+    background-color: var(--burgundy);
+    color: var(--cream);
+    border: 2px solid var(--cream);
+}
+
+/* Email */
+.email {
+    text-align: center;
+    font-size: 1.3em;
+    margin: 30px 0;
+}
+
+.email a {
+    color: var(--gold);
+    text-decoration: none;
+    border-bottom: 1px solid var(--gold);
+}
+
+.email a:hover {
+    color: var(--light-cream);
+    border-bottom: 1px solid var(--light-cream);
+}
+
+/* Links */
+a {
+    color: var(--gold);
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--light-cream);
+}
+
+/* Motto Block */
+.motto-block {
+    text-align: center;
+    margin: 40px 0;
+    padding: 30px;
+    border-top: 2px solid var(--cream);
+    border-bottom: 2px solid var(--cream);
+}
+
+.motto-large {
+    font-size: 1.8em;
+    font-weight: bold;
+    color: var(--gold);
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+
+.motto-translation {
+    font-size: 1.2em;
+    font-style: italic;
+    color: var(--light-cream);
+}
+
+/* Signature */
+.signature {
+    text-align: center;
+    margin: 40px 0;
+    font-style: italic;
+    color: var(--light-cream);
+    line-height: 1.6;
+}
+
+.final-plea {
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: var(--gold);
+    margin: 40px 0;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    margin-top: 80px;
+    padding-top: 40px;
+    border-top: 1px solid var(--cream);
+    opacity: 0.7;
+    font-size: 0.9em;
+}
+
+/* Charter page specific styles */
+.charter-content {
+    line-height: 1.9;
+}
+
+.charter-content h2 {
+    margin-top: 50px;
+    padding-top: 30px;
+    border-top: 1px solid var(--cream);
+}
+
+.charter-content h3 {
+    margin-top: 30px;
+    color: var(--gold);
+}
+
+.charter-content h4 {
+    margin-top: 20px;
+    color: var(--light-cream);
+    font-size: 1.2em;
+}
+
+.back-link {
+    display: inline-block;
+    margin-bottom: 40px;
+    padding: 10px 20px;
+    background-color: var(--dark-burgundy);
+    border: 1px solid var(--cream);
+    border-radius: 3px;
+    transition: all 0.3s ease;
+}
+
+.back-link:hover {
+    background-color: var(--burgundy);
+    border: 1px solid var(--gold);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    body {
+        font-size: 16px;
+        padding: 10px;
+    }
+
+    .container {
+        padding: 20px 10px;
+    }
+
+    h1 {
+        font-size: 2em;
+        letter-spacing: 2px;
+    }
+
+    h2 {
+        font-size: 1.6em;
+    }
+
+    .cross-symbol {
+        width: 80px;
+        height: 80px;
+    }
+
+    .callout {
+        padding: 20px;
+    }
+
+    ul, ol {
+        margin-left: 20px;
+    }
+
+    .button {
+        padding: 12px 30px;
+        font-size: 1em;
+    }
+
+    p {
+        text-align: left;
+    }
+}
+
+/* Print Styles */
+@media print {
+    body {
+        background-color: white;
+        color: black;
+    }
+
+    .button {
+        display: none;
+    }
+
+    .back-link {
+        display: none;
+    }
+}
