@@ -45,10 +45,10 @@ header {
 .cross-symbol {
     width: 200px;
     height: 200px;
-    opacity: 0.95;
     background-color: #FFF8DC;
     border-radius: 50%;
     padding: 15px;
+    display: block;
 }
 
 h1 {
